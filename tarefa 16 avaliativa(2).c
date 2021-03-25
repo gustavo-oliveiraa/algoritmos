@@ -1,4 +1,4 @@
-/*16. Fazer um algoritmo que leia o nome e a altura de três pessoas, determine e apresente o nome
+/*16. Fazer um algoritmo que leia o nome e a altura de trÃªs pessoas, determine e apresente o nome
 e a altura da menor delas.*/
 #include<stdio.h>
 int main(){
@@ -22,7 +22,7 @@ int main(){
 		    printf("O maior e o %s, com %.2lf.\n", NOME2, ALTURA2);
 	}else if(ALTURA3 > ALTURA1 and ALTURA3 > ALTURA2){
 		    printf("O maior e o %s, com %.2lf.\n", NOME3, ALTURA3);
-	}else (ALTURA1 == ALTURA3 and ALTURA1 == ALTURA2){
+	}else if(ALTURA1 == ALTURA3 and ALTURA1 == ALTURA2){
 		    printf("Todos tem a mesma altura.\n");
 	}
 	return 0;
